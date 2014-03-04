@@ -34,11 +34,3 @@ class CustomCV(object):
             test = np.logical_not(train)
             yield np.where(train)[0], np.where(test)[0]
 
-# <codecell>
-
-A=['a', 'a' ,'a' ,'a' ,'b' ,'b' ,'b' ,'c' ,'c' ,'c' ,'c' ,'c' ,'d' ,'d' ,'d' ,'d' ,'d' ,'d', 'e', 'e', 'e', 'e', 'e', 'e', 'e']
-
-# <codecell>
-
-B=customCV()
-
